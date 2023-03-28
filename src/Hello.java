@@ -4,15 +4,12 @@ public class Hello {
 
     public static void main(String[] args) {
 
-        System.out.println("안녕하세요");
+       System.out.println("안녕하세요");
 
-        String name = "김철수";
-        double random = Math.random();
+       String name = "김철수";
+       double random = Math.random();
 
-        Scanner sc = new Scanner(System.in);
-
-
-
+       Scanner sc = new Scanner(System.in);
 
     }
 }
