@@ -22,15 +22,36 @@ public class MethodQuiz {
     }
 
     private static int indexOf(String str) {
-        int idx = 0;
-        for (int i = 0; i <foods.length ; i++) {
-            if (){
-                idx = i;
-            }else{
-               idx = -1;
+        for (int i = 0; i < foods.length; i++) {
+            if(str.equals(foods[i])){
+                return i;
             }
         }
-        return idx;
+        return -1;
+    }
+    private static void remove(String str){
+        if (foods.length > 0) {
+            // 0. 삭제 대상 데이터 백업
+            String delTarget = foods[foods.length - 1];
+
+            // 1. 원본배열보다 1개 사이즈 작은 새 배열 생성
+            String[] temp = new  String[foods.length - 1];
+
+            // 2. 맨 마지막 데이터만 빼고 모두 새배열에 복사
+            for (int i = 0; i < temp.length; i++) {
+                temp[i] = foods[i];
+            }
+            for (int i = 0; i <temp.length ; i++) {
+                if(str.equals(foods[i])){
+                    return;
+                }else{
+                    break;
+                }
+            } System.out.println("존재하지 않는 음식명입니다!");
+            // 3. 주소값 이전
+            foods = temp;
+            temp = null;
+        }
     }
 
 
@@ -45,13 +66,13 @@ public class MethodQuiz {
         System.out.println(idx);
         // idx에 4가 리턴되어야 함.
         int idx2 = indexOf("김치찌개");
-        System.out.println(idx);
+        System.out.println(idx2);
         // idx에 -1이 리턴되어야 함.
         int idx3 = indexOf("짜장면");
-        System.out.println(idx);
+        System.out.println(idx3);
 
-//        remove("김치찌개"); // foods배열에서 김치찌개 제거
-//        remove("망고"); // 존재하지 않는 음식명입니다 출력.
+        remove("김치찌개"); // foods배열에서 김치찌개 제거
+        //remove("망고"); // 존재하지 않는 음식명입니다 출력.
 
         printFoods();
 
