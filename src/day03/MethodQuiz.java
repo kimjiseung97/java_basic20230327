@@ -5,6 +5,7 @@ import java.util.Objects;
 
 public class MethodQuiz {
     static String[]foods = {"떡볶이","치킨","파스타"};
+    static String[]userNames ={"홍길동","김철수"};
     private static void printFoods() {
         System.out.println(Arrays.toString(foods));
     }
