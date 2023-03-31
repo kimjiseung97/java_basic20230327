@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6678f868-83af-4a02-82c5-bfe8b01d7323" name="Changes" comment="Array 이론 및 예제">
-      <change afterPath="$PROJECT_DIR$/src/day05/member/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/요구사항.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/player/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/player/Player.java" afterDir="false" />
+    <list default="true" id="6678f868-83af-4a02-82c5-bfe8b01d7323" name="Changes" comment="객체활용 회원추가 예제&#10;this의 의미 예제">
+      <change afterPath="$PROJECT_DIR$/src/day05/member/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/member/MemberView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <recent name="day05.member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Test">
+  <component name="RunManager" selected="애플리케이션.day05.member.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.array.Main" />
       <module name="java_basic" />
@@ -95,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompaer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.StringCompaer" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.member.Test" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day05.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.member.Test" />
+    <configuration name="day05.member.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.member.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day05.member.Main" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.day05.player.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.PackagePractice" />
-        <item itemvalue="애플리케이션.StringCompaer" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680169445040</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="객체활용 회원추가 예제&#10;this의 의미 예제">
+      <created>1680229039351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680229039351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Array 이론 및 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array 이론 및 예제" />
+    <MESSAGE value="객체활용 회원추가 예제&#10;this의 의미 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체활용 회원추가 예제&#10;this의 의미 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
