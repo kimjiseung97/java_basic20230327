@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6678f868-83af-4a02-82c5-bfe8b01d7323" name="Changes" comment="객체활용 회원추가 예제&#10;this의 의미 예제">
-      <change afterPath="$PROJECT_DIR$/src/day06/encap/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/encap/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/modi/pac1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/modi/pac1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/modi/pac2/C.java" afterDir="false" />
+    <list default="true" id="6678f868-83af-4a02-82c5-bfe8b01d7323" name="Changes" comment="객체활용 회원정보 수정 삭제 기능추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680256424005</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="객체 접근지정자 예제">
+      <created>1680511138628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680511138628</updated>
+    </task>
+    <task id="LOCAL-00009" summary="객체활용 회원정보 수정 삭제 기능추가">
+      <created>1680511160832</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680511160832</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +225,10 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Array 이론 및 예제" />
     <MESSAGE value="객체활용 회원추가 예제&#10;this의 의미 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체활용 회원추가 예제&#10;this의 의미 예제" />
+    <MESSAGE value="객체활용 회원수정 삭제기능 추가" />
+    <MESSAGE value="객체 접근지정자 예제" />
+    <MESSAGE value="객체활용 회원정보 수정 삭제 기능추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체활용 회원정보 수정 삭제 기능추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
