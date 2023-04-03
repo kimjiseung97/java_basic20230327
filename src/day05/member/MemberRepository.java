@@ -1,17 +1,19 @@
 package day05.member;
 
+import day02.StdIO;
+
 //역할 : 회원 저장소 역할
 public class MemberRepository {
-
+    public static final  int NOT_FOUND = -1;
     Member[] memberList;
 
     public MemberRepository() {
-        this.memberList = new Member[3];
-        memberList[0] = new Member("abcd@def.com","콩벌레",1,Gender.MALE,50);
-        memberList[1] = new Member("zzzz@def.com","팥죽이",2,Gender.FEMALE,30);
-        memberList[2] = new Member("qwer@def.com","카레왕",3,Gender.MALE,44);
-
+        this.memberList = new Member[0];
+//        memberList[0] = new Member("abcd@def.com","콩벌레",1,Gender.MALE,50);
+//        memberList[1] = new Member("zzzz@def.com","팥죽이",2,Gender.FEMALE,30);
+//        memberList[2] = new Member("qwer@def.com","카레왕",3,Gender.MALE,44);
     }
+
     /*
         모든 회원 정보를 출력해주는 메서드
      */
@@ -60,7 +62,7 @@ public class MemberRepository {
 
     //마지막 회원의 번호를 알려주는 기능
     int getLastMemberId(){
-        return memberList[memberList.length-1].memberId;
+        return !isEmpty()? memberList[memberList.length-1].memberId : 0;
     }
 
     /*이메일을 통해 특정 회원 객체를 찾아서 반환하는 기능
@@ -75,6 +77,61 @@ public class MemberRepository {
         }
         return null;
     }
+
+    /*
+    * @param email : 탐색 대상의 이메일
+    * @return : 찾아낸 인덱스 못찾으면 -1리턴*/
+    int findIndexEmail(String email){
+        for (int i = 0; i <memberList.length ; i++) {
+            if(memberList[i].email.equals(email)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+
+    /*
+    * 비밀번호를 수정하는 기능
+    * @param email : 수정 대상의 이메일
+    * @param newPassword : 변경할 새로운 비밀번호
+    * */
+    boolean changePassword(String email, String newPassword){
+        //수정진행
+       int indexNumber = findIndexEmail(email);
+       if(indexNumber==-1){
+          return false;
+       }else{
+           memberList[indexNumber].password = newPassword;
+           return true;
+       }
+    }
+
+    void removeMember(String email) {
+        // 인덱스 찾기
+        int delIndex = findIndexEmail(email);
+
+        // 앞으로 땡기기
+        for (int i = delIndex; i < memberList.length - 1; i++) {
+            memberList[i] = memberList[i + 1];
+        }
+
+        // 배열 마지막 칸 없애기
+        Member[] temp = new Member[memberList.length - 1];
+        for (int i = 0; i < temp.length; i++) {
+            temp[i] = memberList[i];
+        }
+        memberList = temp;
+    }
+
+
+    //멤버가 있는지없는지 확인
+
+    boolean isEmpty(){
+        return memberList.length==0;
+    }
+
+
 
 }
 

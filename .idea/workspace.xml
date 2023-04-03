@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6678f868-83af-4a02-82c5-bfe8b01d7323" name="Changes" comment="객체활용 회원추가 예제&#10;this의 의미 예제">
-      <change afterPath="$PROJECT_DIR$/src/day04/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/encap/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/encap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/modi/pac1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/modi/pac1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/modi/pac2/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +45,6 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.jdks/corretto-11.0.18/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,6 +58,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java_basic20230327&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
@@ -68,19 +75,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day04.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PackagePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.PackagePractice" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day06.encap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.encap.Main" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.encap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.day05.member.Main" />
+        <item itemvalue="애플리케이션.day06.encap.Main" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.day05.player.Main" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.PackagePractice" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +221,19 @@
     <MESSAGE value="Array 이론 및 예제" />
     <MESSAGE value="객체활용 회원추가 예제&#10;this의 의미 예제" />
     <option name="LAST_COMMIT_MESSAGE" value="객체활용 회원추가 예제&#10;this의 의미 예제" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
