@@ -2,6 +2,8 @@ package day05.member;
 
 import java.util.Scanner;
 
+import static day05.member.Gender.*;
+
 // 역할 : 회원관리 앱의 입출력을 담당
 public class MemberView {
 
@@ -102,10 +104,10 @@ public class MemberView {
             String inputGender =input("#성별[M/F] : ");
             switch (inputGender.toUpperCase().charAt(0)){
                 case 'M':
-                    gender=Gender.MALE;
+                    gender= MALE;
                     break  checkGender; //라벨붙인 구문 탈출할수있게 설정
                 case 'F':
-                    gender=Gender.FEMALE;
+                    gender= FEMALE;
                     break  checkGender;
                 default:
                     System.out.println("#성별을 M/F로 정확히 입력하세요");
