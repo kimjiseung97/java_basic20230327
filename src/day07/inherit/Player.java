@@ -10,7 +10,6 @@ public class Player extends Object{
 
     //부모의 생성자
 
-
     public Player(String nickName) {
         System.out.println("player의 생성자 호출!");
         this.nickName = nickName;

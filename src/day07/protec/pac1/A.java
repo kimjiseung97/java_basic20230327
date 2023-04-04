@@ -16,8 +16,12 @@ public class A {
     public A(){
 
     }
-    protected A(int a){}
+    protected A(int a){
 
-    A(String s){}
+    }
+
+    A(String s){
+
+    }
 }
 

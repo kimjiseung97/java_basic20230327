@@ -5,7 +5,6 @@ package day07.inherit;
 //서브클래스 (자식클래스)
 public class Warrior extends Player{
 
-
     int rage; //분노게이지
 
     public Warrior() {
@@ -32,4 +31,5 @@ public class Warrior extends Player{
         super.showStatus();
         System.out.println("# rage :"+this.rage);
     }
+
 }
