@@ -16,5 +16,20 @@ public class Main {
 
         park.drive(new Mustang());
 
+        makeLine();
+
+//        Mustang mustang = new Mustang();
+//        mustang.accelerate();
+//        mustang.powerSound();
+//
+//        Stinger stinger = new Stinger();
+//        stinger.accelerate();
+
+        makeLine();
+
+        Car car = shop.exportCar(6000);
+//        System.out.println("car = " + car);
+        System.out.println(car instanceof Stinger);
+
     }
 }
