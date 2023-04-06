@@ -4,25 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6678f868-83af-4a02-82c5-bfe8b01d7323" name="Changes" comment="예제">
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/HpMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/LgMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/SamsungKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/CarShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Mustang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Stinger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Tucson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/overloading/Over.java" afterDir="false" />
+    <list default="true" id="6678f868-83af-4a02-82c5-bfe8b01d7323" name="Changes" comment="&quot;&quot;">
+      <change afterPath="$PROJECT_DIR$/src/day09/Singer/AritistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/Singer/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/Singer/ArtistView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/Singer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/Singer/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/abs/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/abs/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/abs/GoldFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/abs/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/abs/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/final_/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/final_/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/BadAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/BullDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Huntable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Shark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Wild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Galaxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Pencil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz/PhoneCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Touchable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/array/StringList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/array/StringList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,30 +77,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java_basic20230327&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/java_basic20230327",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="day09.Singer" />
       <recent name="day08.poly" />
       <recent name="MemberPractice" />
       <recent name="day05.member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day07.inherit.Main">
-    <configuration name="GisaFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.quiz.GisaFirst" />
+  <component name="RunManager" selected="애플리케이션.Main">
+    <configuration name="FieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.FieldMain" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.quiz.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,11 +110,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.poly.car.Main" />
+      <option name="MAIN_CLASS_NAME" value="day09.Singer.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.poly.car.*" />
+          <option name="PATTERN" value="day09.Singer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.inherit.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.inherit.Main" />
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.poly.book.Run" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.inherit.*" />
+          <option name="PATTERN" value="day08.poly.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.lotto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.lotto.Main" />
+    <configuration name="day09.abs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.abs.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.lotto.*" />
+          <option name="PATTERN" value="day09.abs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.static_.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.static_.Main" />
+    <configuration name="day09.quiz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.quiz.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.static_.*" />
+          <option name="PATTERN" value="day09.quiz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.day07.inherit.Main" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.GisaFirst" />
-        <item itemvalue="애플리케이션.day07.lotto.Main" />
-        <item itemvalue="애플리케이션.day07.static_.Main" />
+        <item itemvalue="애플리케이션.day09.quiz.Main" />
+        <item itemvalue="애플리케이션.day09.abs.Main" />
+        <item itemvalue="애플리케이션.Run" />
+        <item itemvalue="애플리케이션.FieldMain" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +271,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680607308689</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="다형성 에제">
+      <created>1680662318592</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680662318593</updated>
+    </task>
+    <task id="LOCAL-00015" summary="oop 객체지향 프로그래밍 도서관리프로그램">
+      <created>1680694187039</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680694187039</updated>
+    </task>
+    <task id="LOCAL-00016" summary="다형성 예제">
+      <created>1680694208208</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680694208208</updated>
+    </task>
+    <task id="LOCAL-00017" summary="&quot;&quot;">
+      <created>1680667060056</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680667060056</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +324,11 @@
     <MESSAGE value="로또 퀴즈" />
     <MESSAGE value="멤버 예제" />
     <MESSAGE value="예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="예제" />
+    <MESSAGE value="다형성 에제" />
+    <MESSAGE value="oop 객체지향 프로그래밍 도서관리프로그램" />
+    <MESSAGE value="다형성 예제" />
+    <MESSAGE value="&quot;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
