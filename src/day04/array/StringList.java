@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class StringList {
 
     //필드
-    private String[]sArr;
+    public String[]sArr;
 
     //생성자
     public StringList(){

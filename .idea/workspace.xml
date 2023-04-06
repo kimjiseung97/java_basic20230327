@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6678f868-83af-4a02-82c5-bfe8b01d7323" name="Changes" comment="예제">
+      <change afterPath="$PROJECT_DIR$/src/BookPractice/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookPractice/BookUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookPractice/CartoonBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookPractice/CookBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookPractice/LibraryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookPractice/LibraryView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookPractice/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
