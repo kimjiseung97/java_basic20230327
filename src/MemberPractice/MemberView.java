@@ -42,6 +42,7 @@ public class MemberView {
                     signUp();
                     break;
                 case "2":
+                    mr.showprivateMember();
                     break;
                 case "3":
                     mr.showMembers();
@@ -51,6 +52,7 @@ public class MemberView {
                     changePasswordViewProcess();
                     break;
                 case "5":
+                    mr.deleteMember();
                     break;
                 case "6":
                     String answer = input("# 정말로 종료합니까? [y/n]");
@@ -72,7 +74,9 @@ public class MemberView {
         Member foundMember = mr.findByEmail(email);
         if(foundMember!=null){
             //존재하는 사람인지 확인했으니 변경작업진행
-
+            foundMember.password = email;
+        }else{
+            System.out.println(email+"정보를 얻지못했습니다.");
         }
     }
 
