@@ -1,6 +1,8 @@
 package day05.member;
 
 
+import java.time.LocalDate;
+
 //역할 : 1명의 회원정보를 묶어주는 역할
 public class Member {
 
@@ -10,6 +12,10 @@ public class Member {
     int memberId;
     Gender gender;
     int age;
+
+    //회원 가입일
+    LocalDate regDate;
+
 
     public Member(String email,String password, String memberName, int memberId, Gender gender, int age) {
         this.email = email;

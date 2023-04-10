@@ -2,6 +2,10 @@ package day05.member;
 
 import day02.StdIO;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.time.LocalDate;
+
 //역할 : 회원 저장소 역할
 public class MemberRepository {
     public static final  int NOT_FOUND = -1;
@@ -40,8 +44,29 @@ public class MemberRepository {
         for (int i = 0; i <memberList.length ; i++) {
             temp[i] = memberList[i];
         }
+
+        //회원 가입 시간 등록
+         newMember.regDate = LocalDate.now();
         temp[temp.length-1] = newMember;
         memberList = temp;
+
+        //save파일 생성
+         try(FileWriter fw = new FileWriter("D:/exercise/membe.txt")) {
+
+             String saveInfo  = "";
+             saveInfo+=newMember.memberId;
+             saveInfo+=","+newMember.memberName;
+             saveInfo+=","+newMember.email;
+             saveInfo+=","+newMember.gender;
+             saveInfo+=","+newMember.age;
+             saveInfo+=","+newMember.password;
+
+             fw.append(saveInfo+"\n");
+
+
+         } catch (IOException e) {
+             System.out.println("파일 저장 실패!");
+         } ;
 
         return true;
      }
