@@ -1,16 +1,17 @@
 package myrecipe;
 
-import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 import static day07.Util.Utility.input;
 
-public class foodview {
+public class Foodview {
 
     public void selectmenu(){
        showmenu();
     }
 
-    public static food fd;
+    public static Food fd;
 
 
     static {
@@ -83,16 +84,20 @@ public class foodview {
         //한국음식 추가하는 메뉴
         //음식이름과 재료 레시피를 입력받고 생성자 호출하는 함수
         String foodname = input("음식이름 : ");
-        ArrayList<String> material = new ArrayList<>();
+        Set<String> material = new HashSet<>();
         while(true){
             System.out.println("음식재료를 입력해주세요! [그만 입력시 종료됌]");
-            String meteralname = input("재료 : ");
-            material.add(meteralname);
-            if(meteralname.equals("그만")) break;
+            String meterialname = input("재료 : ");
+            material.add(meterialname);
+            if(meterialname.equals("그만")) break;
         }
         String recipe = input("조리법 : ");
 
-//        fd.add(new koreafood(foodname, material,recipe));
+        Koreafood kr = new Koreafood();
+        kr.setFoodname(foodname);
+        kr.setMaterial(material);
+        kr.setRecipe(recipe);
+
 
     }
 }
