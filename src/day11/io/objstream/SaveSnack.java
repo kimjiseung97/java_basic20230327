@@ -16,6 +16,8 @@ public class SaveSnack {
         snackList.add(new Snack("콘칲",1970,1500,Snack.Taste.GOOD));
         snackList.add(new Snack("사브레",1980,2500,Snack.Taste.BAD));
         snackList.add(new Snack("오징어집",1985,1800,Snack.Taste.SOSO));
+        snackList.add(new Snack("스윙칩",1985,1800,Snack.Taste.BAD));
+
         saveFile();
     }
 
